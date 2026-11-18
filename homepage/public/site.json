@@ -1,0 +1,306 @@
+{
+  "settings": {
+    "lang": "ko",
+    "artistName": { "ko": "작가", "en": "Artist" },
+    "statement": {
+      "ko": "예시 프로필입니다. 이름, 문장, 작품은 설정과 내용 파일에서 바꿉니다.",
+      "en": "Sample profile. The name, sentence, and works change from settings and the content file."
+    },
+    "contact": "",
+    "midGray": "#808080",
+    "showSpecSentence": false,
+    "placement": "rule",
+    "multiCategory": "single",
+    "sizeAxis": "split",
+    "musicMediumId": "music",
+    "copyrightTimeZone": "Asia/Seoul",
+    "referenceWidth": 1280,
+    "referenceHeight": 720,
+    "expandMs": 180,
+    "holdMs": 2000,
+    "fadeMs": 200,
+    "wipeMs": 520,
+    "respectReducedMotion": true,
+    "showSampleBanner": true
+  },
+  "catalog": {
+    "sample": true,
+    "media": [
+      { "id": "drawing", "label": { "ko": "드로잉", "en": "Drawing" } },
+      { "id": "painting", "label": { "ko": "회화", "en": "Painting" } },
+      { "id": "music", "label": { "ko": "음악", "en": "Music" } },
+      { "id": "text", "label": { "ko": "글", "en": "Text" } },
+      { "id": "video", "label": { "ko": "영상", "en": "Video" } }
+    ],
+    "fields": [
+      { "id": "visual", "label": { "ko": "시각", "en": "Visual" } },
+      { "id": "sound", "label": { "ko": "소리", "en": "Sound" } },
+      { "id": "language", "label": { "ko": "언어", "en": "Language" } }
+    ],
+    "genres": [
+      { "id": "still", "label": { "ko": "정지", "en": "Still" } },
+      { "id": "motion", "label": { "ko": "움직임", "en": "Motion" } },
+      { "id": "record", "label": { "ko": "기록", "en": "Record" } }
+    ],
+    "concepts": [
+      {
+        "id": "boundary",
+        "word": { "ko": "경계", "en": "Boundary" },
+        "dictionary": { "ko": "사물이 나뉘는 자리.", "en": "A place where things divide." },
+        "artistMeaning": { "ko": "예시. 작가가 이 단어에 두는 뜻을 여기에 적습니다.", "en": "Sample. The sense the artist gives this word goes here." },
+        "quotes": [
+          { "text": { "ko": "예시 인용. 경계는 선이 아니라 머무는 시간이다.", "en": "Sample quotation. A boundary is time spent, not a line." }, "source": { "ko": "예시 노트", "en": "Sample note" } }
+        ],
+        "related": ["distance", "light"],
+        "x": 180,
+        "y": 120
+      },
+      {
+        "id": "repetition",
+        "word": { "ko": "반복", "en": "Repetition" },
+        "dictionary": { "ko": "같은 일이 다시 일어남.", "en": "The same thing happening again." },
+        "artistMeaning": { "ko": "예시. 횟수보다 어긋남이 중요합니다.", "en": "Sample. The slip matters more than the count." },
+        "quotes": [
+          { "text": { "ko": "예시 인용. 반복은 같은 자리를 비웁니다.", "en": "Sample quotation. Repetition empties the same place." }, "source": { "ko": "예시 노트", "en": "Sample note" } }
+        ],
+        "related": ["speed", "record"],
+        "x": 180,
+        "y": 200
+      },
+      {
+        "id": "silence",
+        "word": { "ko": "침묵", "en": "Silence" },
+        "dictionary": { "ko": "소리가 없음.", "en": "The absence of sound." },
+        "artistMeaning": { "ko": "예시. 비어 있는 박으로 둡니다.", "en": "Sample. Kept as an empty beat." },
+        "quotes": [
+          { "text": { "ko": "예시 인용. 침묵도 길이로 잽니다.", "en": "Sample quotation. Silence is also measured as length." }, "source": { "ko": "예시 노트", "en": "Sample note" } }
+        ],
+        "related": ["weight"],
+        "x": 180,
+        "y": 280
+      },
+      {
+        "id": "weight",
+        "word": { "ko": "무게", "en": "Weight" },
+        "dictionary": { "ko": "물체가 누르는 정도.", "en": "How much an object presses." },
+        "artistMeaning": { "ko": "예시. 크기와 따로 두는 감각입니다.", "en": "Sample. A sensation kept apart from size." },
+        "quotes": [
+          { "text": { "ko": "예시 인용. 가벼운 것도 오래 들면 무겁습니다.", "en": "Sample quotation. A light thing grows heavy if held." }, "source": { "ko": "예시 노트", "en": "Sample note" } }
+        ],
+        "related": ["silence", "light"],
+        "x": 180,
+        "y": 360
+      },
+      {
+        "id": "light",
+        "word": { "ko": "빛", "en": "Light" },
+        "dictionary": { "ko": "사물을 보이게 하는 밝음.", "en": "Brightness that makes things visible." },
+        "artistMeaning": { "ko": "예시. 채도를 말하기 전에 두는 단어입니다.", "en": "Sample. The word placed before saturation." },
+        "quotes": [
+          { "text": { "ko": "예시 인용. 빛은 색보다 먼저 도착합니다.", "en": "Sample quotation. Light arrives before color." }, "source": { "ko": "예시 노트", "en": "Sample note" } }
+        ],
+        "related": ["boundary"],
+        "x": 180,
+        "y": 440
+      },
+      {
+        "id": "record",
+        "word": { "ko": "기록", "en": "Record" },
+        "dictionary": { "ko": "나중에 보도록 남겨 둠.", "en": "Something kept to be seen later." },
+        "artistMeaning": { "ko": "예시. 작품 제목도 기록으로 둡니다.", "en": "Sample. A title is also kept as a record." },
+        "quotes": [
+          { "text": { "ko": "예시 인용. 기록은 일어난 일을 한 단어로 줄입니다.", "en": "Sample quotation. A record reduces an event to one word." }, "source": { "ko": "예시 노트", "en": "Sample note" } }
+        ],
+        "related": ["repetition", "distance"],
+        "x": 180,
+        "y": 520
+      },
+      {
+        "id": "distance",
+        "word": { "ko": "거리", "en": "Distance" },
+        "dictionary": { "ko": "둘 사이의 떨어짐.", "en": "The gap between two things." },
+        "artistMeaning": { "ko": "예시. 화면의 중앙과 가장자리 사이입니다.", "en": "Sample. The gap between the center and the edge of the page." },
+        "quotes": [
+          { "text": { "ko": "예시 인용. 거리는 선이 길어지는 이유입니다.", "en": "Sample quotation. Distance is why a line grows long." }, "source": { "ko": "예시 노트", "en": "Sample note" } }
+        ],
+        "related": ["boundary"],
+        "x": 180,
+        "y": 600
+      },
+      {
+        "id": "speed",
+        "word": { "ko": "속도", "en": "Speed" },
+        "dictionary": { "ko": "위치가 바뀌는 빠르기.", "en": "How fast a position changes." },
+        "artistMeaning": { "ko": "예시. 화면의 움직임은 짧게 두고 반응은 바로 둡니다.", "en": "Sample. Motion stays short and response stays immediate." },
+        "quotes": [
+          { "text": { "ko": "예시 인용. 속도는 길이를 시간으로 나눈 값입니다.", "en": "Sample quotation. Speed is length divided by time." }, "source": { "ko": "예시 노트", "en": "Sample note" } }
+        ],
+        "related": ["repetition"],
+        "x": 180,
+        "y": 680
+      }
+    ],
+    "works": [
+      {
+        "id": "d1",
+        "title": { "ko": "예시 드로잉 1", "en": "Sample drawing 1" },
+        "medium": "drawing",
+        "fields": ["visual"],
+        "genres": ["still"],
+        "year": 2019,
+        "size": 30,
+        "durationSec": null,
+        "saturation": 20,
+        "mood": null,
+        "unit": { "ko": "cm", "en": "cm" },
+        "concepts": ["boundary", "light"],
+        "x": 760,
+        "y": 140
+      },
+      {
+        "id": "d2",
+        "title": { "ko": "예시 드로잉 2", "en": "Sample drawing 2" },
+        "medium": "drawing",
+        "fields": ["visual"],
+        "genres": ["still", "record"],
+        "year": 2021,
+        "size": 120,
+        "durationSec": null,
+        "saturation": 40,
+        "mood": null,
+        "unit": { "ko": "cm", "en": "cm" },
+        "concepts": ["repetition", "record"],
+        "x": 980,
+        "y": 140
+      },
+      {
+        "id": "p1",
+        "title": { "ko": "예시 회화 1", "en": "Sample painting 1" },
+        "medium": "painting",
+        "fields": ["visual"],
+        "genres": ["still"],
+        "year": 2018,
+        "size": 80,
+        "durationSec": null,
+        "saturation": 90,
+        "mood": null,
+        "unit": { "ko": "cm", "en": "cm" },
+        "concepts": ["light", "weight"],
+        "x": 760,
+        "y": 260
+      },
+      {
+        "id": "p2",
+        "title": { "ko": "예시 회화 2", "en": "Sample painting 2" },
+        "medium": "painting",
+        "fields": ["visual", "language"],
+        "genres": ["record"],
+        "year": 2024,
+        "size": 200,
+        "durationSec": null,
+        "saturation": 10,
+        "mood": null,
+        "unit": { "ko": "cm", "en": "cm" },
+        "concepts": ["record", "distance"],
+        "x": 980,
+        "y": 260
+      },
+      {
+        "id": "m1",
+        "title": { "ko": "예시 곡 짧은", "en": "Sample short piece" },
+        "medium": "music",
+        "fields": ["sound"],
+        "genres": ["motion"],
+        "year": 2020,
+        "size": null,
+        "durationSec": 45,
+        "saturation": null,
+        "mood": 20,
+        "unit": { "ko": "초", "en": "sec" },
+        "concepts": ["silence", "speed"],
+        "x": 760,
+        "y": 380
+      },
+      {
+        "id": "m2",
+        "title": { "ko": "예시 곡 긴", "en": "Sample long piece" },
+        "medium": "music",
+        "fields": ["sound"],
+        "genres": ["motion", "record"],
+        "year": 2022,
+        "size": null,
+        "durationSec": 480,
+        "saturation": null,
+        "mood": 70,
+        "unit": { "ko": "초", "en": "sec" },
+        "concepts": ["repetition", "weight"],
+        "x": 980,
+        "y": 380
+      },
+      {
+        "id": "t1",
+        "title": { "ko": "예시 글 1", "en": "Sample text 1" },
+        "medium": "text",
+        "fields": ["language"],
+        "genres": ["record"],
+        "year": 2016,
+        "size": 12,
+        "durationSec": null,
+        "saturation": null,
+        "mood": null,
+        "unit": { "ko": "쪽", "en": "pages" },
+        "concepts": ["record", "boundary"],
+        "x": 760,
+        "y": 500
+      },
+      {
+        "id": "t2",
+        "title": { "ko": "예시 글 2", "en": "Sample text 2" },
+        "medium": "text",
+        "fields": ["language"],
+        "genres": ["still"],
+        "year": null,
+        "size": 3,
+        "durationSec": null,
+        "saturation": null,
+        "mood": null,
+        "unit": { "ko": "쪽", "en": "pages" },
+        "concepts": ["silence"],
+        "x": 980,
+        "y": 500
+      },
+      {
+        "id": "v1",
+        "title": { "ko": "예시 영상 1", "en": "Sample video 1" },
+        "medium": "video",
+        "fields": ["visual", "sound"],
+        "genres": ["motion"],
+        "year": 2023,
+        "size": 15,
+        "durationSec": null,
+        "saturation": 55,
+        "mood": null,
+        "unit": { "ko": "분", "en": "min" },
+        "concepts": ["speed", "distance"],
+        "x": 760,
+        "y": 620
+      },
+      {
+        "id": "v2",
+        "title": { "ko": "예시 영상 2", "en": "Sample video 2" },
+        "medium": "video",
+        "fields": ["visual"],
+        "genres": ["motion", "still"],
+        "year": 2014,
+        "size": 2,
+        "durationSec": null,
+        "saturation": 5,
+        "mood": null,
+        "unit": { "ko": "분", "en": "min" },
+        "concepts": ["light"],
+        "x": 980,
+        "y": 620
+      }
+    ]
+  }
+}
